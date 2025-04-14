@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card, Badge, Button } from '@rewind-ui/core';
 import { Link } from 'react-router-dom';
 import img3 from "../assets/img3.jpg"

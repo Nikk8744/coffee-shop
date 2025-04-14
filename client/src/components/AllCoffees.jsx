@@ -1,4 +1,3 @@
-import React from 'react';
 import CardList from '../components/CardList';
 import coffees from "../coffee.json";
 import { MdEmojiFoodBeverage } from "react-icons/md";

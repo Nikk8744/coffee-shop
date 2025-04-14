@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const Contact = () => {
 
@@ -18,8 +18,8 @@ const Contact = () => {
 
   return (
     <section className="py-16">
-      <h2 className='text-center italic text-4xl font-bold text-white mb-8 tracking-widest'>Contact Us</h2>
-      <form  onsubmit={handleSubmit} className='max-w-lg mx-auto bg-black p-8 rounded-lg transition-shadow duration-300 ease-in-out transform hover:scale-110 animate-pulse'>
+      <h2 className='text-center italic text-4xl font-bold text-black mb-8 tracking-widest'>Contact Us</h2>
+      <form onSubmit={handleSubmit} className='max-w-lg mx-auto bg-black p-8 rounded-lg transition-shadow duration-300 ease-in-out transform hover:scale-110 animate-pulse'>
         <input type="text"  name="name" placeholder="Your Name" className='w-full p-3 mb-3 border rounded-lg' value={formData.name} onChange={handleChange}/>
         <input type="email" name="email" placeholder="Your Email" className='w-full p-3 mb-3 border rounded-lg'value={formData.email} onChange={handleChange}/>
         <textarea id="message" name="message" placeholder="Your Message" className='w-full p-3 mb-3 border rounded-lg' value={formData.message} onChange={handleChange}/>

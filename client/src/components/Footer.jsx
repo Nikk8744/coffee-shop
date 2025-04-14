@@ -1,4 +1,3 @@
-import React from 'react'
 import { GiCoffeeCup } from "react-icons/gi";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
@@ -14,7 +13,7 @@ const Footer = () => {
     //     <GiCoffeeCup className='text-4xl pb-2'/> 
     //   </div>
     // </footer>
-    <footer className="bg-black text-white p-8 mt-12 ">
+    <footer className="bg-black text-white p-8">
     <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
       {/* Logo and description section */}
       <div className="text-center md:text-left mb-6 md:mb-0">
